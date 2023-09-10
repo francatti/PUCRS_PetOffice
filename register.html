@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Pet Office</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="register.css" />
+</head>
+<body>
+    <div class="register">
+
+        <div class="frame">
+
+            <!-- top ícone home e texto -->
+            <a href="index.html"><img src="./img/logo.png"></a>
+            <h1>Cadastre-se!</h1>
+            <p><span>Os campos com <span style="color: #8D0C0C;">*</span> são <span style="color: #8D0C0C;">obrigatórios!</span></span></p>
+            
+            <!-- formulário -->
+                <form action="https://formsubmit.co/francattinicholas@gmail.com" method="POST" />
+                <fieldset>
+                    <div class="leftside">
+                        <input type="email" name="email" placeholder="E-mail" required/> <span>*</span>
+                        <br>
+            
+                        <input type="password" minlength="8" name="password" placeholder="Senha" required/> <box-icon name='low-vision' ></box-icon> <span>*</span>
+                        
+                        <br>
+
+                        <input type="text" name="cpf" placeholder="CPF" required/> <span>*</span>
+                        <br>
+
+                        <input type="text" name="name" placeholder="Nome do tutor" required/> <span>*</span>
+                        <br>
+
+                        <input type="text" name="petname" placeholder="Nome do Pet"/>
+                    </div>
+
+                    <hr class="divider" />
+
+                    <div class="rightside">
+                        <input type="text" name="cep" pattern="[0-9]{8}" maxlength="8" placeholder="CEP" required/> <span>*</span>
+                        <br>
+            
+                        <input type="text" name="rua" placeholder="Rua" required/> <span>*</span> 
+                        <br>
+
+                        <input type="text" name="numero" placeholder="nº" required/> <span>*</span> 
+
+                        <input type="text" name="complemento" placeholder="Complemento" required/> <span>*</span>
+                        <br>
+
+                        <input type="tel" name="telefone"  maxlength="11" pattern="[0-9]{11}" placeholder="Telefone"/> <span>*</span>
+                        <br>
+
+                        <button type="submit">Cadastrar</button>
+                        
+                    </div>
+                </fieldset>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,201 @@
+/* estilos para a página de registro */
+
+body {
+    background-image: url(./img/bg-register.png);
+  }
+
+
+  .register {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+
+
+  .frame {
+    position: absolute;
+    width: 908px;
+    height: 711px;
+    top: 14%;
+    left: 480px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+  }
+ 
+  .frame img {
+    position: relative;
+    width: 25%;
+    height: 16%;
+    top: 20px;
+    left: 335px;
+  }
+
+  .frame h1 {
+    position: absolute;
+    top: 160px;
+    left: 360px;
+    font-family: "Rounded Mplus 1c-Black";
+    font-size: 30px;
+    font-weight: 900px;
+    color: #407976;
+    letter-spacing: -2px;
+  }
+
+  .frame p {
+    position: absolute;
+    top: 205px;
+    left: 340px;
+    font-family: "Rounded Mplus 1c-Black";
+    font-size: 16px;
+    font-weight: 900px;
+    color: #30485F;
+    letter-spacing: -1.5px;
+  }
+
+
+  .leftside fieldset {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 250px;
+    left: 50px;
+    border: none;
+  }
+
+  .leftside input {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    top: 150px;
+    left: 60px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Rounded Mplus 1c-Black";
+    font-size: 18px;
+    font-weight: 900px;
+    color: #30485F;
+    letter-spacing: -2px;
+    padding-left: 20px;
+    background-color: rgba(237, 181,70, 68%);
+  }
+
+  .leftside fieldset span {
+
+    color: #30485F;
+    letter-spacing: -2px;
+  }
+
+  .leftside input:focus-within {
+    outline: none;
+    border: 2px solid #407976;
+  }
+
+  .leftside span {
+    color: #8D0C0C;
+    font-size: 25px;
+    position: relative;
+    top: 120px;
+    left: 372px;
+    font-family: "Rounded Mplus 1c-Black";
+    font-size: 18px;
+    font-weight: 900px;
+  }
+
+  .rightside input{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    bottom: 588px;
+    left: 500px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Rounded Mplus 1c-Black";
+    font-size: 18px;
+    font-weight: 900px;
+    color: #30485F;
+    letter-spacing: -2px;
+    padding-left: 20px;
+    background-color: rgba(237, 181,70, 68%);
+  }
+
+  
+  .rightside button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 195px;
+    height: 54px;
+    bottom: 565px;
+    left: 550px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: "Rounded Mplus 1c-Black";
+    font-size: 22px;
+    font-weight: 900px;
+    color: #ffffff;
+    letter-spacing: -1.8px;
+    background-color: #407976;
+  }
+
+
+  .rightside span {
+    color: #8D0C0C;
+    font-size: 25px;
+    position: relative;
+    bottom: 620px;
+    left: 815px;
+    font-family: "Rounded Mplus 1c-Black";
+    font-size: 18px;
+    font-weight: 900px;
+  }
+
+  .divider{
+    height: 400px;
+    width: 1px;
+    border-right: 2px solid #407976;
+}
+
+  hr {
+    position: relative;
+    bottom: 190px;
+    right: 10px;
+    width: 200px;
+    border: 1px solid #407976;
+  }
+
+  .rightside input:focus-within {
+    outline: none;
+    border: 2px solid #407976;
+  }
+
+  .leftside .rightside textarea input {
+    color: #30485F;
+  }
+
+
+
+
+/* imports de fontes */
+
+  @font-face {
+    font-family: "Rounded Mplus 1c-Black";
+    src: url("https://anima-uploads.s3.amazonaws.com/5b29fec26a4769000a2636b1/MPLUSRounded1c-Black.ttf")
+      format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Rounded Mplus 1c-ExtraBold";
+    src: url("https://anima-uploads.s3.amazonaws.com/5c8e4dd43b02eb000a65cd09/MPLUSRounded1c-ExtraBold.ttf")
+      format("truetype");
+  }

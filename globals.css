@@ -1,0 +1,43 @@
+/* estilos globais pro projeto todo */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  box-sizing: border-box;
+  -webkit-text-stroke: 0.2px rgb(94, 94, 94);
+}
+
+html,
+body {  
+  margin: 0px;
+  height: 100%;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* imports de fontes */
+
+@font-face {
+  font-family: "Rounded Mplus 1c-Black";
+  src: url("https://anima-uploads.s3.amazonaws.com/5b29fec26a4769000a2636b1/MPLUSRounded1c-Black.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Rounded Mplus 1c-ExtraBold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c8e4dd43b02eb000a65cd09/MPLUSRounded1c-ExtraBold.ttf")
+    format("truetype");
+}
