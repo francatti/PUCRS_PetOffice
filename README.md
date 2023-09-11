@@ -1,5 +1,5 @@
 # Pet Office
-Projeto da matéria de Fundamentos de Sistemas Web da PUC RS - 3 Trimestre
+Projeto da matéria de Fundamentos de Sistemas Web da PUC RS - 3º Trimestre
 
 # Objetivo
 
